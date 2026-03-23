@@ -62,7 +62,7 @@ export default defineConfig(({ mode }) => {
   };
 
   return {
-    base: '/satyaveni-industries/',
+    base: '/',
     plugins: [react(), tailwindcss(), generateLogoPlugin()],
     define: {
       'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY),
